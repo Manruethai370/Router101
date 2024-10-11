@@ -1,0 +1,60 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(0, 0, 0, 0.87); /* เปลี่ยนเป็นสีดำเพื่อให้ชัดเจน */
+  background-color: #f0f0f0; /* สีพื้นหลังอ่อน ๆ */
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+a {
+  font-weight: 500;
+  color: #007bff; /* สีฟ้า */
+  text-decoration: inherit;
+}
+a:hover {
+  color: #0056b3; /* สีฟ้าที่เข้มขึ้นเมื่อ Hover */
+}
+
+body {
+  margin: 0;
+  display: flex;
+  place-items: center;
+  flex-direction: column; /* จัดเรียงให้เป็นแนวตั้ง */
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+  color: #333; /* สีข้อความสำหรับหัวเรื่อง */
+}
+
+button {
+  border-radius: 4px; /* ความโค้งมนของปุ่ม */
+  border: 1px solid transparent;
+  padding: 0.3em 0.6em; /* ขนาดกรอบปุ่ม */
+  font-size: 0.85em; /* ขนาดตัวอักษร */
+  font-weight: 500;
+  font-family: inherit;
+  background-color: #28a745; /* สีเขียวสดใส */
+  color: white; /* สีตัวอักษรในปุ่ม */
+  cursor: pointer;
+  transition: background-color 0.25s, border-color 0.25s;
+  margin: 0.5em; /* เพิ่มระยะห่างรอบ ๆ ปุ่ม */
+}
+button:hover {
+  background-color: #218838; /* สีเขียวเข้มเมื่อ Hover */
+  border-color: #1e7e34; /* สีขอบเมื่อ Hover */
+}
+button:focus,
+button:focus-visible {
+  outline: 4px auto #80bdff; /* เปลี่ยนสีเมื่อ Focus */
+}
